@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event</title>
+	<link rel="stylesheet" type="text/css" href="font.css">
+
+	<!-- icon -->
+	<link rel="stylesheet" type="text/css" href="icon/icofont/icofont.min.css">
+	<link rel="stylesheet" type="text/css" href="icon/boxicon/css/boxicons.min.css">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<script type="text/javascript" src="custom.js"></script>
+
+
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.customer-logos').slick({
+				slidesToShow: 6,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 1500,
+				arrows: false,
+				dots: false,
+				pauseOnHover: false,
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 4
+					}
+				}, {
+					breakpoint: 520,
+					settings: {
+						slidesToShow: 3
+					}
+				}]
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="banner">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-default">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="photo/logo.jpg" id="logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link px-4" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" href="#">Speakers</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" href="#">Schedule</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" href="#">Sponsor</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" href="#">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="btn px-4" href=""  id="aboutTicket">Buy Ticket</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="row justify-content-center text-white text-center">
+				<div class="col-8" id="headerwhitespace">
+					<h1 class="text-uppercase display-4">The annual 
+						<span class="primary">Marketing </span>Conference</h1>
+						<p class="my-5">10-12 December ,Downtown Conference Center ,Yangon</p>
+						<a href="" class="btn btn-outline-warning d-xl-inline-blog d-lg-inline-block d-md-none d-sm-none d-none" id="aboutBtn">About the Event</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 text-white">
+						<h4 class="pt-5">About the Event</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 text-white ">
+						<h4 class="pt-5">Where</h4>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. </p>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 text-white ">
+						<h4 class="pt-5">When</h4>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="speaker">
+			<h1><center>Event Speakers</center></h1>
+			<hr id="h">
+			<div class="container mt-5">
+				<div class="row">
+					<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+						<div class="speaker mb-5
+
+						">
+							<img src="photo/s1.jpeg" class="img-fluid">
+							<div class="details text-white">
+								<h3>Speaker 1</h3>
+								<p>Myanmar</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+						<div class="speaker mb-5">
+							<img src="photo/s8.jpeg" class="img-fluid">
+							<div class="details text-white">
+								<h3>Speaker 2</h3>
+								<p>Myanmar</p>
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+						<div class="speaker mb-5">
+							<img src="photo/s4.jpeg" class="img-fluid">
+							<div class="details text-white">
+								<h3>Speaker 3</h3>
+								<p>Myanmar</p>
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+						<div class="speaker mb-5">
+							<img src="photo/s9.jpeg" class="img-fluid">
+							<div class="details text-white">
+								<h3>Speaker 4</h3>
+								<p>Myanmar</p>
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+						<div class="speaker mb-5">
+							<img src="photo/s3.jpeg" class="img-fluid">
+							<div class="details text-white">
+								<h3>Speaker 5</h3>
+								<p>Myanmar</p>
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+						<div class="speaker mb-5">
+							<img src="photo/s10.jpeg" class="img-fluid">
+							<div class="details text-white">
+								<h3>Speaker 6</h3>
+								<p>Myanmar</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="schedule">
+			<div class="container mt-5">
+				<h1>EVENT SCHEDULE</h1>
+				<h4>Here is our event schedule</h4>
+				<hr id="h">
+				<hr>
+				<ul class="day nav nav-pills nav-fill">
+					  <li class="day1">
+					    <a class="nav-link" href="#">
+					    Day1</a>
+					  </li>
+					  <li class="day2">
+					    <a class="nav-link" href="#">Day2</a>
+					  </li>
+					  <li class="day3">
+					    <a class="nav-link" href="#">Day3</a>
+					  </li>
+				</ul>
+				<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.</p>
+				<div class="bottom">
+					<div class="row">
+						<div class="col-lg-2 col-xl-2 col-sm-2
+						col-md-2 mt-3">
+							09:30AM
+						</div>
+						<div class="col-lg-10 col-xl-10 col-sm-10
+						col-md-10 mt-3">
+							<h5>Registration</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p> 
+						</div>	
+					</div>
+					<div class="row">
+						<div class="col-lg-2 col-xl-2 col-sm-12 
+						col-md-12 mt-3">
+							09:30AM
+						</div>
+						<div class="col-lg-1 col-xl-1 col-sm-12 
+						col-md-12 mt-3">
+							<div class="image-cropper">
+									<img src="photo/boy1.jpg" alt="avatar" class="profile-pic">
+							</div>
+						</div>		
+						<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 mt-3">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-2 col-xl-2 col-sm-12
+						col-md-12 mt-3">
+							10:00AM
+						</div>
+						<div class="col-lg-1 col-xl-1 col-sm-12
+						col-md-12 mt-3">
+							<div class="image-cropper">
+									<img src="photo/boy3.jpg" alt="avatar" class="profile-pic">
+							</div>
+						</div>		
+						<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 mt-3">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-2 col-xl-2 col-sm-12
+						col-md-12 mt-3">
+							11:00AM
+						</div>
+						<div class="col-lg-1 col-xl-1 col-sm-12
+						col-md-12 mt-3">
+							<div class="image-cropper">
+									<img src="photo/boy4.jpg" alt="avatar" class="profile-pic">
+							</div>
+						</div>		
+						<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 mt-3">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-2 col-xl-2 col-sm-12
+						col-md-12 mt-3">
+							12:00AM
+						</div>
+						<div class="col-lg-1 col-xl-1 col-sm-12
+						col-md-12 mt-3">
+							<div class="image-cropper">
+									<img src="photo/model.jpg" alt="avatar" class="profile-pic">
+							</div>
+						</div>		
+						<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 mt-3">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-2 col-xl-2 col-sm-12
+						col-md-12 mt-3">
+							02:00PM
+						</div>
+						<div class="col-lg-1 col-xl-1 col-sm-12
+						col-md-12 mt-3">
+							<div class="image-cropper">
+									<img src="photo/shakira.jpg" alt="avatar" class="profile-pic">
+							</div>
+						</div>		
+						<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 mt-3">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-2 col-xl-2 col-sm-12
+						col-md-12 mt-3">
+							04:00PM
+						</div>
+						<div class="col-lg-1 col-xl-1 col-sm-12
+						col-md-12 mt-3">
+							<div class="image-cropper">
+									<img src="photo/selena Gomez.jpg" alt="avatar" class="profile-pic">
+							</div>
+						</div>		
+						<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 mt-3">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div id="venue">
+			<h1>Event Venue</h1>
+			<p>Event venue location info and gallery</p>
+			<hr id="h">
+			<div class="container mt-5">
+				<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.3581196170426!2d-74.00841558504976!3d40.710132245667594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2smm!4v1596348082177!5m2!1sen!2smm" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+					<img src="photo/v1.jpeg" width="100%"  class="img-fluid">
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+					<img src="photo/v2.jpeg" width="100%" class="img-fluid">
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+					<img src="photo/v3.jpeg" width="100%" class="img-fluid">
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+					<img src="photo/v4.jpeg" width="100%" height="300" class="img-fluid">
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+					<img src="photo/v5.jpeg" width="100%"  class="img-fluid">
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+					<img src="photo/v6.jpeg" width="100%"  class="img-fluid">
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+					<img src="photo/v7.jpeg" width="100%" class="img-fluid">
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+					<img src="photo/v8.jpeg" width="100%" class="img-fluid">
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+					<img src="photo/v9.jpeg" width="100%" class="img-fluid">
+				</div>
+
+			</div>
+
+			
+			</div>
+		</div>
+		<div id="hotel">
+			<div class="container mt-5">
+					<h1 style="text-align: center;">HOTELS</h1>
+					<p style="text-align: center;">Her are some nearby hotels</p>
+				<hr id="h">
+					
+				<div class="row">
+					<div class="col-lg-4 col-xl-4 col-md-12 col-sm-12">
+						<div class="card" style="width: 18rem;">
+						  <img src="photo/hotel1.jpeg" class="card-img-top" alt="...">
+						  <div class="card-body">
+						  	<h1 class="card-title">Hotel 1</h1><br>
+						  	<div>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  	</div>
+
+						    <p class="card-text">0.4 Mile from the Venue</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-xl-4 col-md-12 col-sm-12">
+						<div class="card" style="width: 18rem;">
+						  <img src="photo/hotel2.jpeg" class="card-img-top" alt="...">
+						  <div class="card-body">
+						  	<h1 class="card-title">Hotel 2</h1><br>
+						  	<div>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  	</div>
+
+						    <p class="card-text">0.5 Mile from the Venue</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-xl-4 col-md-12 col-sm-12">
+						<div class="card" style="width: 18rem;">
+						  <img src="photo/hotel3.jpeg" class="card-img-top" alt="...">
+						  <div class="card-body">
+						  	<h1 class="card-title">Hotel 3</h1><br>
+						  	<div>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  		<i class="icofont-star" style="color: yellow"></i>
+						  	</div>
+
+						    <p class="card-text">0.6 Mile from the Venue</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div id="Gallery" class="mt-5">
+			<div class="container">
+ 			<h1 style="text-align: center;">GALLERY</h1>
+				<h4 style="text-align: center;">Check our gallery from the recent events</h4>
+				<hr id="h">
+		   <section class="customer-logos slider">
+		      <div class="slide"><img src="photo/g1.jpg"></div>
+		      <div class="slide"><img src="photo/g9.jpeg"></div>
+		      <div class="slide"><img src="photo/g2.jpeg"></div>
+		      <div class="slide"><img src="photo/g3.jpeg"></div>
+		      <div class="slide"><img src="photo/g4.jpeg"></div>
+		      <div class="slide"><img src="photo/g5.jpeg"></div>
+		      <div class="slide"><img src="photo/g6.jpeg"></div>
+		      <div class="slide"><img src="photo/g7.jpeg"></div>
+		      <div class="slide"><img src="photo/g8.jpeg"></div>
+		   </section>
+		</div>
+		</div>
+		<div id="sponsor">
+			<h1 style="text-align: center">Sponsors</h1>
+			<hr id="h">
+			<div class="container mt-5">
+				<div class="row">
+					<div class="col-lg-3 col-xl-3 col-sm-12 col-md-12">
+						<img src="photo/sponsor1.jpeg" class="img-fluid">
+					</div>
+					<div class="col-lg-3 col-xl-3 col-sm-12 col-md-12">
+						<img src="photo/sponsor2.png" class="img-fluid">
+					</div>
+					<div class="col-lg-3 col-xl-3 col-sm-12 col-md-12">
+						<img src="photo/sponsor10.png" class="img-fluid">
+					</div>
+					<div class="col-lg-3 col-xl-3 col-sm-12 col-md-12" class="img-fluid">
+						<img src="photo/sponsor8.png">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-xl-3 col-sm-12 col-md-12">
+						<img src="photo/sponsor5.png" class="img-fluid">
+					</div>
+					<div class="col-lg-3 col-xl-3 col-sm-12 col-md-12">
+						<img src="photo/sponsor6.png" class="img-fluid">
+					</div>
+					<div class="col-lg-3 col-xl-3 col-sm-12 col-md-12" >
+						<img src="photo/sponsor9.jpeg" class="img-fluid">
+					</div>
+					<div class="col-lg-3 col-xl-3 col-sm-12 col-md-12">
+						<img src="photo/sponsor3.png" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="faq">
+			<h1 style="text-align: center;">F.A.Q</h1>
+			<hr id="h">
+			<div class="container mt-5">
+				<div class="row mt-3 mb-3">
+					<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12">
+					Non consectetur a erat name at lectus urna duis?
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+					<i class="icofont-plus-circle"></i>
+					</div>
+					
+				</div>
+				<hr>
+				<div class="row mt-3 mb-3">
+					<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12">
+					Feugiat scelerisque varius morbi enim nunc 
+					faucibus a pelientesque?
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+					<i class="icofont-plus-circle"></i>
+					</div>
+					
+				</div>
+				<hr>
+				<div class="row mt-3 mb-3">
+					<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12">
+					Dolor sit amet consectetur adipiscing ebit
+					petientesque habitant morbi?
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+					<i class="icofont-plus-circle"></i>
+					</div>
+					
+				</div>
+				<hr>
+				<div class="row mt-3 mb-3">
+					<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12">
+					Dolor sit amet consectetur adipiscing ebit
+					petientesque habitant morbi?
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+					<i class="icofont-plus-circle"></i>
+					</div>
+					
+				</div>
+				<hr>
+				<div class="row mt-3 mb-3">
+					<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12">
+					Aeodio tempor orci dapibus.Aliquam selifend
+					mi in nulia?
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+					<i class="icofont-plus-circle"></i>
+					</div>
+					
+				</div>
+				<hr>
+				<div class="row mt-3 mb-3">
+					<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12">
+					Tempus quam petientesque nec nam atiquam
+					sem et tortor consequat?
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+					<i class="icofont-plus-circle"></i>
+					</div>
+					
+				</div>
+				<hr>
+				<div class="row mt-3 mb-3">
+					<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12">
+					Tortor vitae purus faucibus ornarc.Varius
+					vel pharetra vei turpis nume eget lorem dotor?
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+					<i class="icofont-plus-circle"></i>
+					</div>
+					
+				</div>
+				
+			</div>
+
+				
+			</div>	
+		</div>
+		<div id="letter">
+		  <div class="container mt-5">
+		  	<h1 style="text-align: center; color: white;padding-top: 80px;">NEWSLETTER</h1>
+		  	<p style="text-align: center; color: white;">Rerum numquam illum recusandae quia mollitia consequator</p>
+		  	<hr id="h">
+		  	<input type="email" name="email" placeholder="Enter Your Email"><a href="" class="btn btn-outline-warning d-xl-inline-blog d-lg-inline-block d-md-none d-sm-none d-none" id="letterBtn">Subscribe</a>
+		  </div>
+		</div>
+		<!-- buy tickets -->
+	<div class="container-fluid mt-5 py-5 bg-light">
+		<h4 class="text-center text-uppercase font-weight-bold">Buy Tickets</h4>
+		<p class="text-center">Velit consequatur inventore iste fugit unde omnis eum aut</p>
+		<hr id="line">
+
+		<div class="row">
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+				<div class="card border-success mb-3" style="max-width: 18rem;">
+					<div class="card-header bg-transparent border-success"><h6 class ="text-center text-uppercase">Standard Access</h6>
+						<h3 class ="text-center text-uppercase">$150</h3></div>
+					<div class="card-body text-left">
+						<ul type="none">
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Regular Seating
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Coffee Break
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Custom Badge
+							</li>
+							<li class="text-muted">
+								<i class="icofont-close"></i>&nbsp;&nbsp;Community Access
+							</li>
+							<li class="text-muted">
+								<i class="icofont-close"></i>
+								&nbsp;&nbsp;Workshop Access</li>
+							<li class="text-muted">
+								<i class="icofont-close"></i>
+								&nbsp;&nbsp;After Party
+							</li>
+						</ul>
+					</div>
+					<div class="card-footer text-center bg-transparent border-success"> <a href="#" class="btn btn-danger" id="buy">Buy Now</a></div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+				<div class="card border-success mb-3" style="max-width: 18rem;">
+					<div class="card-header bg-transparent border-success"><h6 class ="text-center text-uppercase">Pro Access</h6>
+						<h3 class ="text-center text-uppercase">$250</h3></div>
+					<div class="card-body text-left">
+						<ul type="none">
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Regular Seating
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Coffee Break
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Custom Badge
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Community Access
+							</li>
+							<li class="text-muted">
+								<i class="icofont-close"></i>
+								&nbsp;&nbsp;Workshop Access</li>
+							<li class="text-muted">
+								<i class="icofont-close"></i>
+								&nbsp;&nbsp;After Party
+								
+							</li>
+						</ul>
+					</div>
+					<div class="card-footer text-center bg-transparent border-success"> <a href="#" class="btn btn-danger" id="buy">Buy Now</a></div>
+				</div>
+			</div>	
+
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+				<div class="card border-success mb-3" style="max-width: 18rem;">
+					<div class="card-header bg-transparent border-success"><h6 class ="text-center text-uppercase">Premium Access</h6>
+						<h3 class ="text-center text-uppercase">$350</h3></div>
+					<div class="card-body text-left">
+						<ul type="none">
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Regular Seating
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Coffee Break
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Custom Badge
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Community Access
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Workshop Access</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;After Party
+								
+							</li>
+						</ul>
+					</div>
+					<div class="card-footer text-center bg-transparent border-success"> <a href="#" class="btn btn-danger" id="buy">Buy Now</a></div>
+				</div>
+			</div>		
+		</div>
+	</div>
+
+
+	<!-- contact us -->
+	<div class="container mt-5 py-5">
+		<h4 class="text-center text-uppercase font-weight-bold">Contact Us</h4>
+		<p class="text-center">Nihil officia ut sint molestiae tenetur</p>
+		<hr id="h">
+
+		<div class="row">
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 border-right border-dark">
+				<center>
+					<h6 class ="text-uppercase"><b>Address</b></h6>
+					<p>A108 Adam Street, NY 535022, USA</p>
+				</center>
+				
+			</div>
+
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 border-right border-dark">
+				<center>
+					<h6 class ="text-center text-uppercase"><b>Phone Number</b></h6>
+					<p style="color: blue;">+1 5589 55488 55</p>
+				</center>
+				
+			</div>	
+
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+				<center>
+					<h6 class ="text-center text-uppercase"><b>Email</b></h6>
+					<p style="color: blue;">info@example.com</p>
+				</center>	
+			</div>		
+		</div>
+
+		<div class="row mt-2">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 input-group">
+				<input type="text" name="name" placeholder="Your Name" class="form-control">
+			</div>
+
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 input-group">
+				<input type="email" name="email" placeholder="Your Email" class="form-control">
+			</div>
+		</div>
+
+		<div class="row mt-2">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 input-group">
+				<input type="text" name="subject" placeholder="Subject" class="form-control">
+			</div>
+		</div>
+
+		<div class="row mt-2">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 input-group">
+				<textarea class="form-control">Message</textarea>
+			</div>
+		</div>
+
+		<div class="row mt-2">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+				<a class="btn btn-danger" href="#" id="btn-send">Send Message</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="lastFooter">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+					<div>
+						<h2 style="color: white;"><i class="icofont-location-pin "></i>TheEvent</h2>
+					</div>
+					<p style="color: white;">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat</p>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+					<h3 class="text-uppercase" style="color: white;">useful links</h3>
+					<hr id="hrfooter">
+					<i class="icofont-rounded-left" id="i"></i>
+					<label style="color: white;">Home</label>
+					<hr id="hrlink">
+					<i class="icofont-rounded-left" id="i"></i>
+					<label style="color: white;">About us</label>
+					<hr id="hrlink">
+					<i class="icofont-rounded-left" id="i"></i>
+					<label style="color: white;">Services</label>
+					<hr id="hrlink">
+					<i class="icofont-rounded-left" id="i"></i>
+					<label style="color: white;">Terms of service</label>
+					<hr id="hrlink">
+					<i class="icofont-rounded-left" id="i"></i>
+					<label style="color: white;">Privacy policy</label>
+					<hr id="hrlink">
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+					<h3 class="text-uppercase" style="color: white;">contact us</h3>
+					<hr id="hrfooter">
+					<div>
+						<label style="color: white;">A108 Adam Street</label>
+						<br>
+						<label style="color: white;">New York, NY 535022</label>
+						<br>
+						<label style="color: white;">United States</label>
+						<br>
+						<label style="color: white;">Phone: +1 5589 55488 55</label>
+						<br>
+						<label style="color: white;">Email: info@example.com</label>
+					</div>
+					<div>
+						<i class="icofont-twitter text-white icon1"></i>&nbsp;&nbsp;
+						<i class="icofont-facebook text-white icon1"></i>&nbsp;&nbsp;
+						<i class="icofont-instagram text-white icon1"></i>&nbsp;&nbsp;
+						<i class="icofont-google-plus text-white icon1"></i>&nbsp;&nbsp;
+						<i class="icofont-linkedin text-white icon1"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="copyright">
+		<div class="container">
+			<div class="col-12 text-center text-white">
+                <label>@copyright TheEvent. All Right Reserved</label>
+            </div>
+            <div class="col-12 text-center text-white">
+            	<label>Designed By <span class="bootstrap">BootstrapMade</span></label>
+            </div>
+		</div>
+	</div>
+</body>
+</html>
